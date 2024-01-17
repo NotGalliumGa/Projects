@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sources</title>
+    <link rel="stylesheet" href="../css/general_layout.css">
+    <style>
+        .column {
+            float: left;
+            width: 100%;
+            padding: 15px;
+        }
+
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        div p {
+            text-overflow: clip;
+        }
+
+        #not_wraped {
+            text-align: center;
+        }
+
+        #marg0 {
+            text-align: center;
+            margin: 5rem 15rem 5rem 15rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="interesting_font">Sources</h1>
+        <nav class="bg_image">
+            <a href="../pages/example_games.html">Examples</a>
+            <a href="../pages/future_games.html">Future</a>
+            <a href="../pages/videogame_history.html">History</a>
+            <a href="../index.html">Home</a>
+            <a href="../pages/the_good_the_bad.html">Pros &amp; cons</a>
+            <a href="../pages/tech_advancements.html">Growth</a>
+            <a href="../pages/sources_and_info.html">Sources</a>
+        </nav>
+    </header>
+    <main>
+        <div id="marg0" class="row tab">
+            <div class="column">
+                <h3>Sources</h3>
+                <p>
+                    <a target="_blank" href="https://builtin.com/media-gaming/future-of-gaming">https://builtin.com/media-gaming/future-of-gaming</a>
+                    <a target="_blank" href="https://www.ted.com/playlists/661/the_illuminating_benefits_of_videos_games">https://www.ted.com/playlists/661/the_illuminating_benefits_of_videos_games</a>
+                    <a target="_blank" href="https://gamequitters.com/pros-and-cons-of-video-games/">https://gamequitters.com/pros-and-cons-of-video-games/</a>
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/History_of_video_games">https://en.wikipedia.org/wiki/History_of_video_games</a>
+                </p>
+            </div>
+        </div>
+        <div class="row tab">
+            <div class="column">
+                <h1 id="not_wraped">Have something to say? Submit a request!</h1>
+                <form method="post" action="http://amgilder.wcit.cs.unh.edu/cgi-bin/test403">
+                    <fieldset>
+                        <legend>Basic Info</legend>
+                            <h3>What is your name?</h3>
+                            <label for="uname">Name:</label>
+                            <input name="username" id="uname" type="text">
+
+                            <h3>A good email to contact you with?</h3>
+                            <label for="email">Email:</label>
+                            <input name="user_email" id="email" type="email">
+
+                            <h3>How well did this website do on educating you?</h3>
+                            <label for="opinion1">Great</label>
+                            <input name="opinion" id="opinion1" type="radio" value="Great" checked>
+                            <label for="opinion2">Good</label>
+                            <input name="opinion" id="opinion2" type="radio" value="Good">
+                            <label for="opinion3">Ok</label>
+                            <input name="opinion" id="opinion3" type="radio" value="Ok">
+                            <label for="opinion4">Not Well</label>
+                            <input name="opinion" id="opinion4" type="radio" value="Not Well">
+                            <label for="opinion5">Terrible</label>
+                            <input name="opinion" id="opinion5" type="radio" value="Terrible">
+
+                            <h3>Where did I do good?</h3>
+                            <input name="history" id="history" type="checkbox">
+                            <label for="history">History</label>
+                            <input name="examples" id="examples" type="checkbox">
+                            <label for="examples">Examples</label>
+                            <input name="home" id="home" type="checkbox">
+                            <label for="home">Home</label>
+                            <input name="pc" id="pc" type="checkbox">
+                            <label for="pc" >Pro/Con</label>
+                            <input name="future" id="future" type="checkbox">
+                            <label for="future" >Future</label>
+
+                            <h3>Your Comments:</h3>
+                            <textarea name="comments" id="comments" cols="60" rows="10"></textarea>
+
+                            <br><input type="submit" value="submit">
+                    </fieldset>
+                </form>
+            </div>
+        </div> 
+    </main>
+    <footer>
+        <nav class="bg_image bordered">
+            <a href="mailto:gfr1011@usnh.edu">Contact me here</a>
+        </nav>
+    </footer>
+</body>
+</html>

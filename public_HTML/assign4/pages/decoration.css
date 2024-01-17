@@ -1,0 +1,25 @@
+#bd {
+    background-color: lightblue;
+    border: 5px;
+    border-color: black;
+    border-style: groove;
+}
+
+#lm {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 89%;
+    width: inherit;
+    height: inherit;
+}
+
+footer {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+}
+
+header {
+    background-color: lightblue;
+}

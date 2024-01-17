@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Experiment</title>
+    <style>
+        h1, h2, h3 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: .1rem .1rem #000000;
+            text-align: center;
+        }
+
+        div p {
+            text-align: center;
+            color: #000000;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+        }
+
+        figcaption {
+            font-family: monospace;
+            text-align: center;
+            color: #000000;
+        }
+
+        * {
+            color: white;
+        }
+
+
+        #bg_style {
+            background-color: #f0bebe;
+        }
+
+        .boxxed {
+            border-style: inset;
+            margin-top: 5rem;
+            background-color: #fcf9bb;
+        }
+        
+        a:link {
+            color: #0000FF; text-decoration: none;
+        }
+
+        a:visited {
+            color: #DD00FF; text-decoration: none;
+        }
+
+        a:hover {
+            color: #FF0000; text-decoration: none;
+        }
+
+        a:active {
+            color: #FFFF00; text-decoration: none;
+        }
+    </style>
+
+</head>
+<body id="bg_style">
+    <div class="boxxed">
+        <h1> Here are some pictures of many famous artists!</h1>
+        <p>
+            I listen to some of them...
+        </p>
+    </div>
+    <div class="boxxed">
+        <figure>
+            <img src="../images/casiopia.jpg" alt="pic of Cassiopea">
+            <figcaption>
+                Cassiopea Famous Japanese Jazz Band
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="../images/lyn_inaizumi.jpg" alt="pic of Lyn Inaizumi">
+            <figcaption>
+                Lyn Inaizumi Famous Japanese Jazz Singer
+            </figcaption>
+        </figure>
+    </div>
+    <div class="boxxed">
+        <ol>
+            <li><a href="page_1.html">page_1</a></li>
+            <li><a href="page_2.html">page_2</a></li>
+            <li><a href="../index.html">home</a></li>
+        </ol>
+    </div>
+</body>
+</html>

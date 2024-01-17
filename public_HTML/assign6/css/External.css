@@ -1,0 +1,96 @@
+* {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #7c7c7c;
+    position: relative;
+    padding: 3rem;
+    z-index: 0;
+}
+
+a {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+footer {
+    position: relative;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-radius: 5px;
+}
+
+ul {
+    position: inherit;
+    width: 30rem;
+    height: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div p { 
+    text-shadow: #7c7c7c;
+    padding: 2rem 0 2rem 0;
+    margin: 4rem 0 4rem 0;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+    position: absolute;
+}
+
+.clear {
+    clear: both;
+}
+
+#main_pic {
+    height: 500px; 
+    width: 350px;
+    z-index: 1;
+}
+
+#fixed {
+    position: fixed;
+    right: 25%;
+    left: 25%;
+    bottom: 10%;
+}
+
+#absolute {
+    position: absolute;
+}
+
+#unity {
+    height: 200px;
+    width: 200px;
+}
+
+#rblx {
+    height: 150px;
+    width: 100px;
+}
+
+a:link {
+    color: #0000FF; text-decoration: none;
+}
+
+a:visited {
+    color: #DD00FF; text-decoration: none;
+}
+
+a:hover {
+    color: #FF0000; text-decoration: none;
+}
+
+a:active {
+    color: #FFFF00; text-decoration: none;
+}
