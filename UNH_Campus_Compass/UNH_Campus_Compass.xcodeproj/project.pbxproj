@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		894E78E82BAE057B00545AAB /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E78E72BAE057B00545AAB /* LocationView.swift */; };
+		894E78EA2BAE0A6F00545AAB /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E78E92BAE0A6F00545AAB /* LocationViewModel.swift */; };
+		894E78F02BAE658100545AAB /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E78EF2BAE658100545AAB /* LocationListView.swift */; };
+		894E78F22BAF2F3A00545AAB /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E78F12BAF2F3A00545AAB /* LocationPreviewView.swift */; };
+		894E78F42BAF744D00545AAB /* LocationAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E78F32BAF744D00545AAB /* LocationAnnotationView.swift */; };
+		894E78F62BB22C8200545AAB /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E78F52BB22C8200545AAB /* LocationDetailView.swift */; };
+		FA759CB92B93CC59008B0E4C /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA759CB82B93CC59008B0E4C /* LocationService.swift */; };
+		FA759CBE2B93D235008B0E4C /* LocationStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA759CBD2B93D235008B0E4C /* LocationStruct.swift */; };
+		FAC132972B93AF4400B4163D /* UNH_Campus_CompassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC132962B93AF4400B4163D /* UNH_Campus_CompassApp.swift */; };
+		FAC132992B93AF4400B4163D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC132982B93AF4400B4163D /* ContentView.swift */; };
+		FAC1329B2B93AF4900B4163D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC1329A2B93AF4900B4163D /* Assets.xcassets */; };
+		FAC1329E2B93AF4900B4163D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC1329D2B93AF4900B4163D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		894E78E72BAE057B00545AAB /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationView.swift; path = UNH_Campus_Compass/LocationView.swift; sourceTree = SOURCE_ROOT; };
+		894E78E92BAE0A6F00545AAB /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		894E78EF2BAE658100545AAB /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationListView.swift; path = UNH_Campus_Compass/DataService/LocationListView.swift; sourceTree = SOURCE_ROOT; };
+		894E78F12BAF2F3A00545AAB /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationPreviewView.swift; path = UNH_Campus_Compass/DataService/LocationPreviewView.swift; sourceTree = SOURCE_ROOT; };
+		894E78F32BAF744D00545AAB /* LocationAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationAnnotationView.swift; path = UNH_Campus_Compass/DataService/LocationAnnotationView.swift; sourceTree = SOURCE_ROOT; };
+		894E78F52BB22C8200545AAB /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationDetailView.swift; path = UNH_Campus_Compass/DataService/LocationDetailView.swift; sourceTree = SOURCE_ROOT; };
+		FA759CB82B93CC59008B0E4C /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		FA759CBD2B93D235008B0E4C /* LocationStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStruct.swift; sourceTree = "<group>"; };
+		FAC132932B93AF4400B4163D /* UNH_Campus_Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNH_Campus_Compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC132962B93AF4400B4163D /* UNH_Campus_CompassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNH_Campus_CompassApp.swift; sourceTree = "<group>"; };
+		FAC132982B93AF4400B4163D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAC1329A2B93AF4900B4163D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC1329D2B93AF4900B4163D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC132902B93AF4400B4163D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA759CBA2B93D076008B0E4C /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				FA759CB82B93CC59008B0E4C /* LocationService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		FA759CBB2B93D18F008B0E4C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA759CBD2B93D235008B0E4C /* LocationStruct.swift */,
+				894E78E92BAE0A6F00545AAB /* LocationViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA759CBC2B93D1A7008B0E4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				894E78E72BAE057B00545AAB /* LocationView.swift */,
+				894E78EF2BAE658100545AAB /* LocationListView.swift */,
+				894E78F12BAF2F3A00545AAB /* LocationPreviewView.swift */,
+				894E78F32BAF744D00545AAB /* LocationAnnotationView.swift */,
+				894E78F52BB22C8200545AAB /* LocationDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAC1328A2B93AF4400B4163D = {
+			isa = PBXGroup;
+			children = (
+				FAC132952B93AF4400B4163D /* UNH_Campus_Compass */,
+				FAC132942B93AF4400B4163D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC132942B93AF4400B4163D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC132932B93AF4400B4163D /* UNH_Campus_Compass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC132952B93AF4400B4163D /* UNH_Campus_Compass */ = {
+			isa = PBXGroup;
+			children = (
+				FA759CBC2B93D1A7008B0E4C /* Views */,
+				FA759CBB2B93D18F008B0E4C /* Models */,
+				FA759CBA2B93D076008B0E4C /* DataService */,
+				FAC132962B93AF4400B4163D /* UNH_Campus_CompassApp.swift */,
+				FAC132982B93AF4400B4163D /* ContentView.swift */,
+				FAC1329A2B93AF4900B4163D /* Assets.xcassets */,
+				FAC1329C2B93AF4900B4163D /* Preview Content */,
+			);
+			path = UNH_Campus_Compass;
+			sourceTree = "<group>";
+		};
+		FAC1329C2B93AF4900B4163D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1329D2B93AF4900B4163D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC132922B93AF4400B4163D /* UNH_Campus_Compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC132A12B93AF4900B4163D /* Build configuration list for PBXNativeTarget "UNH_Campus_Compass" */;
+			buildPhases = (
+				FAC1328F2B93AF4400B4163D /* Sources */,
+				FAC132902B93AF4400B4163D /* Frameworks */,
+				FAC132912B93AF4400B4163D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UNH_Campus_Compass;
+			productName = UNH_Campus_Compass;
+			productReference = FAC132932B93AF4400B4163D /* UNH_Campus_Compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC1328B2B93AF4400B4163D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FAC132922B93AF4400B4163D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = FAC1328E2B93AF4400B4163D /* Build configuration list for PBXProject "UNH_Campus_Compass" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC1328A2B93AF4400B4163D;
+			productRefGroup = FAC132942B93AF4400B4163D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC132922B93AF4400B4163D /* UNH_Campus_Compass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC132912B93AF4400B4163D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC1329E2B93AF4900B4163D /* Preview Assets.xcassets in Resources */,
+				FAC1329B2B93AF4900B4163D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC1328F2B93AF4400B4163D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC132992B93AF4400B4163D /* ContentView.swift in Sources */,
+				894E78EA2BAE0A6F00545AAB /* LocationViewModel.swift in Sources */,
+				894E78F22BAF2F3A00545AAB /* LocationPreviewView.swift in Sources */,
+				FA759CBE2B93D235008B0E4C /* LocationStruct.swift in Sources */,
+				894E78E82BAE057B00545AAB /* LocationView.swift in Sources */,
+				894E78F02BAE658100545AAB /* LocationListView.swift in Sources */,
+				FA759CB92B93CC59008B0E4C /* LocationService.swift in Sources */,
+				894E78F42BAF744D00545AAB /* LocationAnnotationView.swift in Sources */,
+				894E78F62BB22C8200545AAB /* LocationDetailView.swift in Sources */,
+				FAC132972B93AF4400B4163D /* UNH_Campus_CompassApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAC1329F2B93AF4900B4163D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC132A02B93AF4900B4163D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC132A22B93AF4900B4163D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UNH_Campus_Compass/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "User Location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Group6.UNH-Campus-Compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC132A32B93AF4900B4163D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UNH_Campus_Compass/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "User Location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Group6.UNH-Campus-Compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC1328E2B93AF4400B4163D /* Build configuration list for PBXProject "UNH_Campus_Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC1329F2B93AF4900B4163D /* Debug */,
+				FAC132A02B93AF4900B4163D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC132A12B93AF4900B4163D /* Build configuration list for PBXNativeTarget "UNH_Campus_Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC132A22B93AF4900B4163D /* Debug */,
+				FAC132A32B93AF4900B4163D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC1328B2B93AF4400B4163D /* Project object */;
+}
